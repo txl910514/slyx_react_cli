@@ -1,0 +1,22 @@
+module.exports = {
+  NODE_ENV: JSON.stringify('development'),
+  APP_HOST: JSON.stringify('https://dev.medatc.cc'),
+  APPV3: JSON.stringify('//v3.dev.medatc.cc'),
+  SIGNIN_URL: JSON.stringify('https://api.dev.medatc.cc/user/sso/login'),
+  FOUNDATION_API: JSON.stringify('https://api.dev.medatc.cc/fdn/v1'),
+  USER_API: JSON.stringify('https://api.dev.medatc.cc/user'),
+  ITEM_API: JSON.stringify('https://api.dev.medatc.cc/item'),
+  QUALITY_API: JSON.stringify('https://api.dev.medatc.cc/quality'),
+  FILE_API: JSON.stringify('https://api.dev.medatc.cc/file'),
+  CFG_API: JSON.stringify('https://api.dev.medatc.cc/cfg'),
+  MAINT_API: JSON.stringify('https://api.dev.medatc.cc/maint/v2'),
+  MAINT_API_V1: JSON.stringify('https://api.dev.medatc.cc/maint'),
+  PREP: JSON.stringify('https://dev.medatc.cc/prep'),
+  PREP_API: JSON.stringify('https://dev.medatc.cc/prep/api'),
+  PREP_URL: JSON.stringify('https://dev.medatc.cc/prep/preparation'),
+  WECHAT_URL: JSON.stringify('https://wechat.dev.medatc.cc/#'),
+  APPRAISE_URL: JSON.stringify('https://api.dev.medatc.cc/comments'),
+  OM_URL: JSON.stringify('https://api.dev.medatc.cc/ops'),
+  FBS_URL: JSON.stringify('https://api.dev.medatc.cc/fbs'),
+  V4_ITEM_API: JSON.stringify('https://api.dev.medatc.cc/v2/item/')
+}

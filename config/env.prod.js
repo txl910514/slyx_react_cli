@@ -1,0 +1,21 @@
+module.exports = {
+    NODE_ENV: JSON.stringify('production'),
+    APP_HOST: JSON.stringify('https://medatc.com'),
+    APPV3: JSON.stringify('//v3.cloud.medatc.com'),
+    SIGNIN_URL: JSON.stringify('https://api.medatc.com/user/sso/login'),
+    FOUNDATION_API: JSON.stringify('https://api.medatc.com/fdn/v1'),
+    USER_API: JSON.stringify('https://api.medatc.com/user'),
+    ITEM_API: JSON.stringify('https://api.medatc.com/item'),
+    QUALITY_API: JSON.stringify('https://api.medatc.com/quality'),
+    FILE_API: JSON.stringify('https://api.medatc.com/file'),
+    CFG_API: JSON.stringify('https://api.medatc.com/cfg'),
+    MAINT_API: JSON.stringify('https://api.medatc.com/maint/v2'),
+    MAINT_API_V1: JSON.stringify('https://api.medatc.com/maint'),
+    PREP: JSON.stringify('https://medatc.com/prep'),
+    PREP_API: JSON.stringify('https://medatc.com/prep/api'),
+    PREP_URL: JSON.stringify('https://medatc.com/prep/preparation'),
+    WECHAT_URL: JSON.stringify('https://wechat.medatc.com/#'),
+    APPRAISE_URL: JSON.stringify('https://api.medatc.com/comments'),
+    OM_URL: JSON.stringify('https://api.medatc.com/ops'),
+    FBS_URL: JSON.stringify('https://api.medatc.com/fbs')
+}

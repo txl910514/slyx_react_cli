@@ -1,0 +1,57 @@
+@import "./theme.less";
+@import "./alicdn.less";
+
+/*
+  全局公共样式请添加到这里，以common开头
+*/
+// .common- {
+// }
+.ant-pagination {
+  text-align: right;
+}
+
+.common-custom-filter-dropdown {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+  input {
+    width: 130px;
+    margin-right: 8px;
+  }
+}
+.ant-input {
+  height: 32px;
+}
+
+// 去掉chrome自动填充表单行为带来的浅黄色背景
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  -webkit-text-fill-color: #333;
+}
+
+// edw title
+.edw-title {
+  line-height: 40px;
+  padding: 0 16px;
+  background-color: #fff;
+  .edw-left {
+    color: #333333;
+    cursor: pointer;
+  }
+  .edw-right {
+    text-align: right;
+    .icons {
+      margin-right: 30px;
+    }
+    .icon {
+      font-size: 20px;
+    }
+    .one-icon {
+      margin-right: 30px;
+    }
+    .badge {
+      margin-top: -10px;
+    }
+  }
+}
